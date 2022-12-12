@@ -1,0 +1,61 @@
+Question 1
+
+Write an SQL statement to create a database called "SportsClub".
+
+CREATE DATABASE SportsClub;
+
+Question 2
+
+In the text field below, input the missing keyword (___) from the following SQL statement to create a table called "Players".
+
+TABLE
+
+Question 3
+
+In the text field below, input the missing keyword (___) from the following SQL statement to insert data into the "Players" table. 
+
+VALUES
+
+Question 4
+
+Insert three more records into the "Players" table that contain the following data:
+
+Karl
+
+Question 5
+
+Write a SQL statement that outputs all players names in the "Players" table. When you run the right SQL query, you should have the following output result
+
+SELECT playerName FROM Players;
+
+Question 6
+
+The following table called "Players", contains four records of data. Write a SQL statement that updates the age of the player with ID = 3. The new age value should be '22'.
+
+UPDATE Players SET age = 22 Where playerID = 3;
+
+Question 7
+
+The following table called "Players", contains four records of data. Write a SQL statement that deletes the record of the player with ID = 4.
+
+DELETE FROM Players Where playerID = 4;
+
+
+Question 8
+
+Write an SQL statement that evaluates if the PlayerID in the following "Players" table is odd or even. 
+
+SELECT PlayerID % 2 FROM Players;
+
+
+Question 9
+
+Write an SQL statement that outputs all names of the players in the following "Players" table who are older than 25 years of age.
+
+SELECT Name FROM Players where Age > 25;
+
+Question 10
+
+Review the following ER-Diagram. Write the missing part of the SQL statement to define a foreign key that links the course table with the department table.
+
+FOREIGN KEY (departmentID) REFERENCES Department(departmentID)
